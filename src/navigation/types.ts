@@ -1,10 +1,10 @@
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 
 export type RootStackParamList = {
-  BraiderListScreen: undefined;
-  BraiderDetailsScreen: {braiderId: string};
-  BookingScreen: {bookingId: string};
-  ConfirmationScreen: undefined;
+  BraiderList: undefined;
+  BraiderDetail: {braiderId: string};
+  Booking: {braiderId: string};
+  Confirmation: undefined;
 };
 
 
